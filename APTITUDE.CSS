@@ -46,6 +46,39 @@ button{
 {
     display: none;
 }
+
 .green{
+   
     background-color: darkcyan;
+    width: 200px;
+    align-items: center;
+    
 }
+#heading{
+    display: flex;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+#hidden10{
+    font-size: 50px;
+    font-family: 'Brush Script MT', cursive;
+}
+#hidden1, #hidden2 , #hidden3 , #hidden4{
+    font-size: 60px;
+    font-family: 'Courier New', monospace;;
+}
+.images{
+width: 400px;
+
+}
+.images img{
+    margin-bottom: 50px;
+    width: 300px;
+    height: 200px;
+}
+img{
+    padding: solid 20px black;
+}
+
