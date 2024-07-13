@@ -1,0 +1,18 @@
+body{
+    background-color: steelblue;
+}
+h1{
+    text-align: center;
+}
+span{
+    font-family: Brush Script MT, cursive;
+    font-size: 35px;
+}
+button{
+    width: 400px;
+    height: 40px;
+    background-color: lawngreen;
+}
+a{
+    color: red;
+}
