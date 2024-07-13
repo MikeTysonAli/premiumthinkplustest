@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="result.css"> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+['Visual',     5],
+['Musical',      2],
+['Kinesthetic',  2],
+['Linguistic', 2],
+['interpersonal',     2],
+['Intrapersonal',      2],
+['Naturalistic',  2],
+['Logical', 2]
+        ]);
+
+        var options = {
+          title: 'Your Result',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+<body>
+<h1>We are happy to present your result</h1>
+<h2>It is just our interpretation of your results</h2>
+<div id="donutchart" style="width: 450px; height: 250px; display: flex; float: right;"></div>
+<h3 class="text"> Your results seems to indicate that you are high in visual spatial intelligence and your learning style is visual spatial</h3>
+<span>Visual-spatial intelligence, a key facet of Howard Gardner's theory of multiple intelligences, plays a crucial role in how individuals perceive, understand, and interact with the world around them. This form of intelligence involves the ability to visualize and manipulate objects in one's mind, interpret and create visual images, and navigate spatial environments effectively. Its implications are profound across various aspects of life.</span>
+<h2>Cognitive and Academic Implications</h2>
+<span>Individuals with strong visual-spatial intelligence often excel in fields such as architecture, engineering, art, and design. They can mentally visualize complex structures and spatial relationships, which aids in problem-solving and understanding abstract concepts. In academic settings, these individuals may prefer learning through diagrams, charts, and spatial representations rather than traditional text-based methods.</span>
+<img src="visual1.jpg" alt="visual-genius" width="500" height="600">
+<h2>Artistic and Creative Expression</h2>
+<span>Visual-spatial intelligence is closely linked to artistic and creative abilities. Artists, sculptors, and designers leverage their spatial visualization skills to create visually appealing and innovative works. They can imagine and execute intricate designs, manipulate forms, and understand how shapes and colors interact to convey meaning and emotion.</span>
+<img src="visual2.jpg" alt="visual-genius" width="500" height="600">
+<h2>Navigation and Spatial Awareness</h2>
+<span>People with strong visual-spatial skills often excel in activities requiring navigation and spatial orientation. They can easily visualize maps and navigate through unfamiliar environments with ease. This ability is invaluable in fields such as aviation, navigation, and urban planning, where understanding spatial relationships and directions is critical.</span>
+<img src="visual3.jpg" alt="visual-genius" width="500" height="600">
+<h2>Everyday Applications</h2>
+<span>In daily life, visual-spatial intelligence influences various practical skills. From assembling furniture and reading maps to playing sports and parking a car, individuals with enhanced spatial awareness tend to perform these tasks more efficiently. They can mentally rotate objects, estimate distances accurately, and visualize how objects fit together.</span>
+<img src="visual4.jpg" alt="visual-genius" width="500" height="600">
+<h2>Technological and Scientific Advancements</h2>
+<span>Advancements in technology and science often rely on individuals with strong visual-spatial intelligence. From computer programming and 3D modeling to virtual reality and robotics, these individuals contribute significantly to innovation. They can conceptualize and design complex systems, understand geometric patterns, and visualize how components interact in virtual environments.</span>
+<img src="visual5.jpg" alt="visual-genius" width="500" height="600">
+<h2>Challenges and Opportunities</h2>
+<span>While visual-spatial intelligence confers many advantages, individuals who rely heavily on this intelligence may face challenges in areas that emphasize verbal or numerical reasoning. Educational systems that predominantly assess linguistic and logical-mathematical abilities may inadvertently overlook or undervalue students with strong visual-spatial talents.</span>
+<img src="visual6.jpg" alt="visual-genius" width="500" height="600">
+<h2>Conclusion</h2>
+<span>Visual-spatial intelligence is a multifaceted ability that significantly influences how individuals perceive and interact with their surroundings. Recognizing and nurturing this form of intelligence is essential for fostering creativity, problem-solving skills, and innovation across diverse fields. By understanding its implications, educators, employers, and individuals themselves can better harness and leverage visual-spatial intelligence to achieve personal, academic, and professional success.</span>
+<h2>At last</h2>
+<span> We are happy that you are taking on this journey of finding your true self. But just finding your intelligence is not enough you have to go out there and experiement and polish your skills. And we have made it easier for you. This link would provide you with all the things you would need to get started.</span>
+<button><a href="https://www.learningbp.com/visual-spatial-intelligence-definition-characteristics-activities-development/">Here are the resources</a></button>
+</body>
+
+</html>
