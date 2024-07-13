@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="result.css"> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+['Visual',     2],
+['Musical',      5],
+['Kinesthetic',  2],
+['Linguistic', 2],
+['interpersonal',     2],
+['Intrapersonal',      2],
+['Naturalistic',  2],
+['Logical', 2]
+        ]);
+
+        var options = {
+          title: 'Your Result',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+<body>
+    <h1>We are happy to present your result</h1>
+    <h2>It is just our interpretation of your results</h2>
+    <div id="donutchart" style="width: 450px; height: 250px; display: flex; float: right;"></div>
+    <h3 class="text"> Your results seems to indicate that you are high in musical intelligence </h3>
+    <span>Musical intelligence, a facet of Howard Gardner's theory of multiple intelligences, involves the capacity to perceive, understand, and create music. This form of intelligence has profound implications across various domains:</span>
+    <h2>Cognitive and Academic Implications</h2>
+    <span>Musical intelligence enhances cognitive development in several key areas. It improves auditory discrimination, allowing individuals to distinguish between different tones, rhythms, and melodies. Research indicates that exposure to music from an early age can enhance spatial-temporal reasoning skills, which are crucial for mathematical and scientific thinking. In academic settings, students with strong musical intelligence often excel in music-related subjects, such as music theory, composition, and performance, while also demonstrating enhanced memory and pattern recognition abilities.</span>
+    <img src="musical1.jpg" alt="musical-genius" width="200" height="200">
+    <h2>Problem-Solving and Decision Making</h2>
+    <span>Musical intelligence enhances cognitive development in several key areas. It improves auditory discrimination, allowing individuals to distinguish between different tones, rhythms, and melodies. Research indicates that exposure to music from an early age can enhance spatial-temporal reasoning skills, which are crucial for mathematical and scientific thinking. In academic settings, students with strong musical intelligence often excel in music-related subjects, such as music theory, composition, and performance, while also demonstrating enhanced memory and pattern recognition abilities.</span>
+    <img src="musical2.jpg" alt="musical-genius" width="200" height="200">
+    <h2>Everyday Applications</h2>
+    <span>In daily life, musical intelligence enriches personal experiences and interactions. Individuals with musical talents can express emotions through music, whether through playing an instrument, singing, or composing. Music serves as a form of relaxation, stress relief, and social bonding. Musically intelligent individuals may also contribute to their communities by participating in musical performances, teaching music to others, or using music therapy techniques to promote emotional well-being.</span>
+    <img src="musical4.jpg" alt="musical-genius" width="200" height="200">
+    <h2>Challenges and Opportunities</h2>
+    <span>While musical intelligence is highly valued in artistic and creative fields, individuals may encounter challenges in environments that prioritize technical or analytical skills. They may need to balance their musical talents with proficiency in other intelligences, such as verbal-linguistic or logical-mathematical skills, to navigate diverse career opportunities. However, the ability to integrate musical intelligence with other forms of intelligence enhances adaptability and opens doors to interdisciplinary collaborations.</span>
+    <img src="musical6.jpg" alt="visual-genius" width="200" height="200">
+    <h2>Conclusion</h2>
+    <span>Musical intelligence is a unique and valuable form of intelligence that enhances cognitive abilities, fosters creativity, and enriches personal and cultural experiences. Recognizing and nurturing musical talents from an early age can have profound effects on cognitive development, academic achievement, and emotional well-being. By embracing the power of music, individuals can harness their musical intelligence to inspire creativity, promote social connections, and contribute to a more harmonious and culturally enriched society. Emphasizing the importance of musical education and appreciation enables individuals to cultivate their musical talents, explore diverse musical traditions, and engage meaningfully with the transformative power of music in their lives and communities.
+    
+    
+
+</span>
+<h2>At last</h2>
+<span> We are happy that you are taking on this journey of finding your true self. But just finding your intelligence is not enough you have to go out there and experiement and polish your skills. And we have made it easier for you. This link would provide you with all the things you would need to get started.</span>
+<button><a href="https://www.learningbp.com/logical-mathematical-intelligence-definition-characteristics-activities-development/">Here are the resources</a></button>
+</body>
+
+</html>

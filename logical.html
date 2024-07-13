@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="result.css"> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+['Visual',     2],
+['Musical',      2],
+['Kinesthetic',  2],
+['Linguistic', 2],
+['interpersonal',     2],
+['Intrapersonal',      2],
+['Naturalistic',  2],
+['Logical', 5]
+        ]);
+
+        var options = {
+          title: 'Your Result',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+<body>
+<h1>We are happy to present your result</h1>
+<h2>It is just our interpretation of your results</h2>
+<div id="donutchart" style="width: 450px; height: 250px; display: flex; float: right;"></div>
+<h3 class="text"> Your results seems to indicate that you are high in logical mathematical intelligence and your learning style is logical and data based</h3>
+<span>Logical-mathematical intelligence, as described by Howard Gardner, is the capacity to analyze problems logically, carry out mathematical operations effectively, and investigate issues scientifically. This form of intelligence underpins much of our analytical thinking and problem-solving abilities, influencing various aspects of academic, professional, and everyday life.</span>
+<h2>Cognitive and Academic Implications</h2>
+<span>Individuals strong in logical-mathematical intelligence excel in subjects such as mathematics, physics, computer science, and logic-based disciplines. They possess a keen ability to reason deductively, recognize patterns, and solve complex problems systematically. In educational settings, these individuals often perform well in tasks involving quantitative analysis, abstract thinking, and structured reasoning.</span>
+<img src="maths1.jpg" alt="maths-genius" width="200" height="200">
+<h2>Problem-Solving and Decision Making</h2>
+<span>Professionals with strong logical-mathematical intelligence are adept at analyzing problems, identifying solutions, and making informed decisions based on rationality and evidence. They can evaluate risks, optimize processes, and develop strategies that maximize efficiency and effectiveness across various industries, including finance, logistics, and management.</span>
+<img src="maths2.jpg" alt="maths-genius" width="200" height="200">
+<h2>Everyday Applications</h2>
+<span>Logical-mathematical intelligence influences everyday tasks such as budgeting, scheduling, and problem-solving. Individuals with strong analytical skills can analyze financial data, interpret statistical information, and make informed decisions in personal and professional contexts. Their ability to think logically and critically also aids in tasks requiring planning, organizing, and problem resolution.</span>
+<img src="maths4.jpg" alt="maths-genius" width="200" height="200">
+<h2>Challenges and Opportunities</h2>
+<span>While logical-mathematical intelligence is highly valued in many fields, individuals who excel in this area may face challenges in domains that require more interpersonal skills or creative thinking. Balancing the development of emotional intelligence and creative abilities alongside logical-mathematical skills is crucial for holistic personal and professional growth.</span>
+<img src="maths6.jpg" alt="visual-genius" width="200" height="200">
+<h2>Conclusion</h2>
+<span>Logical-mathematical intelligence plays a pivotal role in shaping how individuals perceive, understand, and interact with the world through analytical reasoning and mathematical thinking. Recognizing and nurturing this intelligence is essential for fostering innovation, problem-solving capabilities, and scientific advancements across diverse fields. By understanding its implications, educators, employers, and individuals themselves can harness and leverage logical-mathematical intelligence to achieve academic excellence, drive technological progress, and make informed decisions in a complex and interconnected world.</span>
+<h2>At last</h2>
+<span> We are happy that you are taking on this journey of finding your true self. But just finding your intelligence is not enough you have to go out there and experiement and polish your skills. And we have made it easier for you. This link would provide you with all the things you would need to get started.</span>
+<button><a href="https://www.learningbp.com/logical-mathematical-intelligence-definition-characteristics-activities-development/">Here are the resources</a></button>
+</body>
+
+</html>

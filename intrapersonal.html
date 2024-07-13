@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="result.css"> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+['Visual',     2],
+['Musical',      2],
+['Kinesthetic',  2],
+['Linguistic', 2],
+['interpersonal',     2],
+['Intrapersonal',      5],
+['Naturalistic',  2],
+['Logical', 2]
+        ]);
+
+        var options = {
+          title: 'Your Result',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+<body>
+<h1>We are happy to present your result</h1>
+<h2>It is just our interpretation of your results</h2>
+<div id="donutchart" style="width: 450px; height: 250px; display: flex; float: right;"></div>
+<h3 class="text"> Your results seems to indicate that you are high in intrapersonal intelligence </h3>
+<span>Intrapersonal intelligence, a concept put forth by Howard Gardner in his theory of multiple intelligences, refers to the capacity to understand oneself, including one's emotions, motivations, strengths, and weaknesses. This form of intelligence plays a significant role in shaping cognitive and academic experiences.</span>
+<h2>Cognitive and Academic Implications</h2>
+<span>Individuals strong in intrapersonal intelligence possess a deep self-awareness that enhances their learning and cognitive processes. They are adept at introspection, understanding their own thought patterns, emotions, and motivations. This self-awareness allows them to set realistic goals, monitor their progress, and adapt their learning strategies accordingly. In academic settings, students with intrapersonal intelligence often excel in self-directed learning environments where they can explore topics of personal interest, reflect on their learning experiences, and set meaningful academic goals aligned with their values and aspirations.</span>
+<img src="intrapersonal1.jpg" alt="intrapersonal-genius" width="200" height="200">
+<h2>Problem-Solving and Decision Making</h2>
+<span>Intrapersonal intelligence influences problem-solving and decision-making processes by enabling individuals to make choices that are congruent with their personal values, beliefs, and aspirations. These individuals can weigh the pros and cons of different options while considering their own emotional responses and long-term goals. They are also adept at managing uncertainty and navigating complex decisions that require introspective analysis and self-reflection.</span>
+<img src="intrapersonal2.jpg" alt="intrapersonal-genius" width="200" height="200">
+<h2>Everyday Applications</h2>
+<span>In everyday life, intrapersonal intelligence manifests in various practical applications. Individuals with strong intrapersonal skills are capable of managing their emotions effectively, making informed decisions about their careers, relationships, and personal development. They have a heightened sense of self-discipline and resilience, allowing them to cope with stress, setbacks, and challenges in a proactive and constructive manner.</span>
+<img src="intrapersonal4.jpg" alt="intrapersonal-genius" width="200" height="200">
+<h2>Challenges and Opportunities</h2>
+<span>While intrapersonal intelligence is highly beneficial, individuals who excel in this area may face challenges in environments that prioritize external achievements or social interactions. They may struggle with collaborative tasks that require extensive interpersonal communication or teamwork. However, developing intrapersonal intelligence can lead to greater self-confidence, autonomy, and a deeper sense of fulfillment in both personal and professional endeavors.</span>
+<img src="intrapersonal6.jpg" alt="visual-genius" width="200" height="200">
+<h2>Conclusion</h2>
+<span>Intrapersonal intelligence is a fundamental aspect of personal development and cognitive functioning. Recognizing and nurturing this intelligence allows individuals to cultivate self-awareness, emotional resilience, and effective decision-making skills. By understanding their own strengths, weaknesses, and motivations, individuals can harness their intrapersonal intelligence to lead meaningful lives, pursue fulfilling careers, and contribute positively to their communities. Emphasizing the importance of intrapersonal intelligence in education and professional development enables individuals to cultivate a balanced approach to personal growth and interpersonal relationships, fostering a more empathetic and self-aware society.</span>
+<h2>At last</h2>
+<span> We are happy that you are taking on this journey of finding your true self. But just finding your intelligence is not enough you have to go out there and experiement and polish your skills. And we have made it easier for you. This link would provide you with all the things you would need to get started.</span>
+<button><a href="https://www.learningbp.com/intrapersonal-intelligence-what-is-it-how-to-develop-it/">Here are the resources</a></button>
+</body>
+
+</html>

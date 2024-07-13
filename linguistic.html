@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="result.css"> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+['Visual',     2],
+['Musical',      2],
+['Kinesthetic',  2],
+['Linguistic', 5],
+['interpersonal',     2],
+['Intrapersonal',      2],
+['Naturalistic',  2],
+['Logical', 2]
+        ]);
+
+        var options = {
+          title: 'Your Result',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+<body>
+    <h1>We are happy to present your result</h1>
+    <h2>It is just our interpretation of your results</h2>
+    <div id="donutchart" style="width: 450px; height: 250px; display: flex; float: right;"></div>
+    <h3 class="text"> Your results seems to indicate that you are high in linguistic intelligence </h3>
+    <span>Linguistic intelligence, as defined by Howard Gardner's theory of multiple intelligences, refers to the ability to understand and manipulate language effectively. This form of intelligence involves sensitivity to the sounds, rhythms, and meanings of words, as well as the ability to use language to express and understand complex ideas. Here are some key implications and applications of linguistic intelligence:</span>
+    <h2>Cognitive and Academic Implications</h2>
+    <span>Linguistic intelligence plays a crucial role in academic settings, particularly in language-based subjects such as literature, writing, and communication. Individuals with strong linguistic intelligence excel in tasks that involve reading comprehension, writing essays, and engaging in debates or discussions. They have a natural affinity for languages, possess a rich vocabulary, and can express themselves eloquently both verbally and in writing. In educational contexts, they often gravitate towards careers such as journalism, editing, teaching, and public speaking.</span>
+    <img src="language1.jpg" alt="language-genius" width="200" height="200">
+    <h2>Problem-Solving and Decision Making</h2>
+    <span>Linguistic intelligence enhances problem-solving and decision-making abilities by facilitating clear and precise communication. Individuals with this intelligence can articulate problems, analyze information effectively, and formulate coherent arguments or solutions. They excel in roles that require critical thinking, persuasion, and negotiation, such as law, politics, and diplomacy. Their ability to use language persuasively also enables them to influence others and navigate complex social and professional landscapes.</span>
+    <img src="language2.jpg" alt="language-genius" width="200" height="200">
+    <h2>Everyday Applications</h2>
+    <span>In daily life, linguistic intelligence manifests in various practical applications. Individuals with strong linguistic skills are adept at interpreting instructions, writing reports, crafting persuasive messages, and effectively communicating with others. They can convey ideas clearly, resolve conflicts diplomatically, and adapt their communication style to different audiences and situations. This intelligence is valuable in professions ranging from marketing and advertising to customer service and public relations.</span>
+    <img src="language4.jpg" alt="language-genius" width="200" height="200">
+    <h2>Challenges and Opportunities</h2>
+    <span>While linguistic intelligence confers many advantages, individuals who excel in this area may face challenges in domains that prioritize technical or spatial skills. Balancing linguistic strengths with other forms of intelligence, such as logical-mathematical or interpersonal intelligence, enhances overall effectiveness and adaptability. Developing a holistic set of intelligences allows individuals to leverage their linguistic talents while also mastering other essential skills required for success in diverse fields.</span>
+    <img src="language6.jpg" alt="visual-genius" width="200" height="200">
+    <h2>Conclusion</h2>
+    <span>Linguistic intelligence is a fundamental aspect of human communication and expression, influencing how individuals interpret and convey information, build relationships, and navigate the world. Recognizing and nurturing this intelligence is essential for fostering effective communication, critical thinking, and interpersonal skills. By cultivating a rich vocabulary, honing writing abilities, and developing rhetorical skills, individuals can harness their linguistic intelligence to achieve academic excellence, advance professionally, and contribute meaningfully to society. Emphasizing the importance of linguistic intelligence in education and personal development enables individuals to communicate effectively, articulate their ideas persuasively, and engage in meaningful dialogue that promotes understanding and collaboration across diverse contexts.</span>
+    <h2>At last</h2>
+    <span> We are happy that you are taking on this journey of finding your true self. But just finding your intelligence is not enough you have to go out there and experiement and polish your skills. And we have made it easier for you. This link would provide you with all the things you would need to get started.</span>
+<button><a href="https://www.learningbp.com/verbal-linguistic-intelligence-definition-characteristics-activities/">Here are the resources</a></button>
+</body>
+
+</html>

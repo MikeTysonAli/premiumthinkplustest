@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="result.css"> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+['Visual',     2],
+['Musical',      2],
+['Kinesthetic',  5],
+['Linguistic', 2],
+['interpersonal',     2],
+['Intrapersonal',      2],
+['Naturalistic',  2],
+['Logical', 2]
+        ]);
+
+        var options = {
+          title: 'Your Result',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+<body>
+    <h1>We are happy to present your result</h1>
+    <h2>It is just our interpretation of your results</h2>
+    <div id="donutchart" style="width: 450px; height: 250px; display: flex; float: right;"></div>
+    <h3 class="text"> Your results seems to indicate that you are high in musical intelligence </h3>
+    <span>Bodily-kinesthetic intelligence, a concept within Howard Gardner's theory of multiple intelligences, refers to the ability to use one's body effectively to solve problems, create products, or present ideas. Individuals strong in this intelligence exhibit a heightened awareness of bodily movements and a capacity for skilled and coordinated physical activities. Let's delve into its implications across various domains:</span>
+    <h2>Cognitive and Academic Implications</h2>
+    <span>Bodily-kinesthetic intelligence enhances cognitive development through physical engagement and hands-on learning. In academic settings, individuals with this intelligence often excel in subjects that require physical skills and dexterity, such as sports, dance, theater, and crafts. They learn best through active participation, experimentation, and manipulation of objects. This form of intelligence is also associated with improved spatial awareness, motor coordination, and sensory integration, which can support learning in other subjects, such as mathematics and science.</span>
+    <img src="body1.jpg" alt="body-genius" width="200" height="200">
+    <h2>Problem-Solving and Decision Making</h2>
+    <span>Bodily-kinesthetic intelligence contributes to problem-solving and decision-making processes by enabling individuals to use their bodies to explore solutions, test hypotheses, and engage in physical problem-solving tasks. They excel in roles that require practical skills, such as athletes, dancers, surgeons, artisans, and performers. Their ability to manipulate objects and perform precise movements allows them to innovate, adapt to changing circumstances, and respond effectively to challenges in their respective fields.</span>
+    <img src="body2.jpg" alt="body-genius" width="200" height="200">
+    <h2>Everyday Applications</h2>
+    <span>In daily life, bodily-kinesthetic intelligence manifests in various practical applications. Individuals with strong physical abilities may excel in activities such as sports, cooking, woodworking, gardening, and other hands-on tasks. They can perform manual labor with efficiency and precision, engage in recreational activities that require physical prowess, and express creativity through physical arts such as dance or sculpture. Their ability to coordinate body movements also enhances everyday tasks such as driving, typing, or playing musical instruments.</span>
+    <img src="body4.jpg" alt="body-genius" width="200" height="200">
+    <h2>Challenges and Opportunities</h2>
+    <span>While bodily-kinesthetic intelligence is highly valued in fields that require physical skills, individuals may face challenges in environments that prioritize academic or verbal-linguistic abilities. They may need to develop complementary skills, such as communication or analytical thinking, to effectively convey their physical insights or advance in certain professions. However, cultivating a well-rounded set of intelligences, including interpersonal, logical-mathematical, and spatial intelligence, enhances adaptability and opens doors to diverse career opportunities in athletics, performing arts, healthcare, and skilled trades.</span>
+    <img src="body6.jpg" alt="visual-genius" width="200" height="200">
+<h2>Conclusion</h2>
+<span>
+    Bodily-kinesthetic intelligence enriches lives through physical expression, skillful performance, and practical problem-solving abilities. Recognizing and nurturing this intelligence allows individuals to cultivate their physical talents, achieve mastery in their chosen fields, and contribute to society through their unique abilities. By embracing the diversity of intelligences, including bodily-kinesthetic intelligence, individuals can explore their passions, pursue fulfilling careers, and make meaningful contributions to their communities and professions. Emphasizing the importance of physical education, vocational training, and artistic expression enables individuals to harness their bodily-kinesthetic intelligence to its fullest potential, promoting personal growth, professional success, and overall well-being.
+
+
+</span>
+<h2>At last</h2>
+<span> We are happy that you are taking on this journey of finding your true self. But just finding your intelligence is not enough you have to go out there and experiement and polish your skills. And we have made it easier for you. This link would provide you with all the things you would need to get started.</span>
+<button><a href="https://www.learningbp.com/bodily-kinesthetic-intelligence-definition-characteristics-activities-development/">Here are the resources</a></button>
+</body>
+
+</html>

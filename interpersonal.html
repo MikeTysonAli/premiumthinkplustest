@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="result.css"> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+['Visual',     2],
+['Musical',      2],
+['Kinesthetic',  2],
+['Linguistic', 2],
+['interpersonal',     5],
+['Intrapersonal',      2],
+['Naturalistic',  2],
+['Logical', 2]
+        ]);
+
+        var options = {
+          title: 'Your Result',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+<body>
+<h1>We are happy to present your result</h1>
+<h2>It is just our interpretation of your results</h2>
+<div id="donutchart" style="width: 450px; height: 250px; display: flex; float: right;"></div>
+<h3 class="text"> Your results seems to indicate that you are high in interpersonal intelligence and your learning style is social and collaboration based</h3>
+<span></span>
+<h2>Cognitive and Academic Implications</h2>
+<span>Professions such as counseling, social work, teaching, and coaching heavily rely on interpersonal intelligence. Practitioners in these fields must establish trusting relationships with clients, students, or athletes, understand their needs, and provide appropriate guidance and support. Their ability to empathize and communicate effectively enhances the effectiveness of their interventions.</span>
+<img src="interpersonal1.jpg" alt="maths-genius" width="200" height="200">
+<h2>Problem-Solving and Decision Making</h2>
+<span>Individuals with strong interpersonal intelligence possess excellent communication skills, both verbal and non-verbal. They are adept at listening actively, empathizing with others, and expressing themselves clearly. This competence allows them to navigate social situations with ease, resolve conflicts diplomatically, and collaborate effectively in group settings.</span>
+<img src="interpersonal2.jpg" alt="maths-genius" width="200" height="200">
+<h2>Leadership and Teamwork</h2>
+<span>Interpersonal intelligence is crucial for leadership roles and teamwork. Leaders who excel in this area can inspire and motivate others, delegate tasks effectively, and foster a positive work environment. They understand group dynamics, build consensus, and encourage cooperation among team members to achieve common goals.</span>
+<img src="interpersonal3.jpg" alt="maths-genius" width="200" height="200">
+<h2>Everyday Applications</h2>
+<span>In personal relationships and parenting, interpersonal intelligence contributes to building strong emotional connections and nurturing meaningful bonds. Individuals who excel in this area understand their own emotions as well as those of their partners, children, or family members. They communicate openly, resolve conflicts calmly, and provide emotional support during challenging times..</span>
+<img src="interpersonal4.jpg" alt="maths-genius" width="200" height="200">
+<h2>Cultural Sensitivity and Diversity</h2>
+<span>In an increasingly diverse world, interpersonal intelligence is essential for navigating cultural differences and fostering inclusivity. Individuals with this intelligence demonstrate respect for cultural norms, perspectives, and values. They can adapt their communication styles and behavior to build bridges across cultural divides, promoting harmony and understanding in multicultural environments.</span>
+<img src="interpersonal5.jpg" alt="maths-genius" width="200" height="200">
+<h2>Challenges and Opportunities</h2>
+<span>While interpersonal intelligence is highly valued, individuals who prioritize interpersonal skills may face challenges in environments that emphasize technical expertise or individual achievement. Balancing interpersonal strengths with other forms of intelligence, such as logical-mathematical or linguistic intelligence, enhances overall effectiveness and adaptability.</span>
+<img src="interpersonal6.jpg" alt="visual-genius" width="200" height="200">
+<h2>Conclusion</h2>
+<span>Interpersonal intelligence is a fundamental aspect of human interaction, influencing how individuals communicate, collaborate, and build relationships. Recognizing and developing this intelligence is essential for personal growth, professional success, and fostering harmonious social environments. By cultivating empathy, communication skills, and cultural sensitivity, individuals can harness their interpersonal intelligence to create positive impacts in diverse contexts and contribute to a more connected and empathetic society.</span>
+<h2>At last</h2>
+<span> We are happy that you are taking on this journey of finding your true self. But just finding your intelligence is not enough you have to go out there and experiement and polish your skills. And we have made it easier for you. This link would provide you with all the things you would need to get started.</span>
+<button><a href="https://www.learningbp.com/interpersonal-intelligence-what-is-it-and-how-to-develop-it/">Here are the resources</a></button>
+</body>
+
+</html>

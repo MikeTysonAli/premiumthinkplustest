@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="result.css"> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+['Visual',     2],
+['Musical',      2],
+['Kinesthetic',  2],
+['Linguistic', 2],
+['interpersonal',     2],
+['Intrapersonal',      2],
+['Naturalistic',  5],
+['Logical', 2]
+        ]);
+
+        var options = {
+          title: 'Your Result',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+<body>
+<h1>We are happy to present your result</h1>
+<h2>It is just our interpretation of your results</h2>
+<div id="donutchart" style="width: 450px; height: 250px; display: flex; float: right;"></div>
+<h3 class="text"> Your results seems to indicate that you are high in musical intelligence </h3>
+<span></span>
+<h2>Cognitive and Academic Implications</h2>
+<span>Naturalistic intelligence, as part of Howard Gardner's theory of multiple intelligences, refers to the ability to recognize and categorize objects and phenomena in the natural world. Individuals with strong naturalistic intelligence exhibit a heightened sensitivity to their surroundings, including flora, fauna, geological formations, and ecological relationships. Here’s a comprehensive look at its implications across various aspects:</span>
+<img src="maths1.jpg" alt="maths-genius" width="200" height="200">
+<h2>Problem-Solving and Decision Making</h2>
+<span>Naturalistic intelligence enhances cognitive development by fostering observation skills, pattern recognition, and a deep understanding of the natural world. Individuals with this intelligence excel in subjects such as biology, botany, geology, environmental science, and ecology. They possess an innate curiosity about nature, which drives them to explore and comprehend complex ecosystems, identify species, and grasp ecological principles. In academic settings, they often thrive in hands-on learning environments that emphasize fieldwork, experiments, and practical applications of scientific knowledge.</span>
+<img src="maths2.jpg" alt="maths-genius" width="200" height="200">
+<h2>Everyday Applications</h2>
+<span>In daily life, naturalistic intelligence manifests in various practical applications. Individuals with strong naturalistic skills may engage in hobbies such as gardening, birdwatching, hiking, or wildlife photography. They appreciate the beauty of nature, contribute to environmental conservation efforts, and make informed choices regarding sustainable living practices. Their knowledge of natural systems also informs their dietary choices, gardening practices, and recreational activities.</span>
+<img src="maths4.jpg" alt="maths-genius" width="200" height="200">
+<h2>Challenges and Opportunities</h2>
+<span>While naturalistic intelligence is valuable for understanding and preserving the natural world, individuals may face challenges in environments that prioritize technical or social skills. They may need to develop complementary skills, such as communication or problem-solving abilities, to effectively communicate their insights and collaborate with others in interdisciplinary fields. However, the ability to integrate naturalistic intelligence with other forms of intelligence, such as scientific reasoning or interpersonal skills, enhances adaptability and opens doors to careers in environmental science, conservation biology, forestry, and natural resource management.</span>
+<img src="maths6.jpg" alt="visual-genius" width="200" height="200">
+<h2>Conclusion</h2>
+<span>
+
+    Naturalistic intelligence enriches lives by fostering a deeper connection with the natural world, promoting environmental stewardship, and contributing to scientific discovery. Recognizing and nurturing this intelligence from an early age can cultivate a sense of responsibility towards the environment, inspire conservation efforts, and foster a sustainable relationship with nature. By emphasizing the importance of ecological literacy and environmental education, individuals can harness their naturalistic intelligence to address global environmental challenges, protect biodiversity, and promote a harmonious coexistence between humans and nature. Embracing the diversity of intelligences, including naturalistic intelligence, enables individuals to appreciate the beauty and complexity of the natural world and actively contribute to its preservation for future generations.
+
+</span>
+<h2>At last</h2>
+<span> We are happy that you are taking on this journey of finding your true self. But just finding your intelligence is not enough you have to go out there and experiement and polish your skills. And we have made it easier for you. This link would provide you with all the things you would need to get started.</span>
+<button><a href="https://www.learningbp.com/logical-mathematical-intelligence-definition-characteristics-activities-development/">Here are the resources</a></button>
+</body>
+
+</html>
